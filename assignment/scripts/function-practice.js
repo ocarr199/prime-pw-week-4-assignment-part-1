@@ -36,7 +36,7 @@ console.log(addNumbers(10, 5));
 console.log("4. Function to multiply three numbers & return the result");
 
 function multiplyThree(numOne, numTwo, numThree) {
-  return numOne * numTwo * numThree
+  return numOne * numTwo * numThree;
 }
 console.log(multiplyThree(2, 5, 10));
 
@@ -68,15 +68,19 @@ console.log("6. Function to return the _last_ item in an array. If the array is 
 let lastArray = [1, 2, 3, 4, 10]
 let anArray = []
 
+
+
 function getLast(array) {
-  for (i = 0; i, array.length; i++) {
+  for (i = 0; i < array.length; i++) {
     if (i == array.length - 1) {
-      return array[i];
+      return array[i]+;
     };
   };
-}
+};
+
 console.log(getLast(lastArray));
 console.log(getLast(anArray));
+
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
